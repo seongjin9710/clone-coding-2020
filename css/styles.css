@@ -7,6 +7,7 @@
 /*components 똑같은 화면 spring 에서는 tiles에 넣는 부분  */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
 
 @import "loginForm.css";
 body {
