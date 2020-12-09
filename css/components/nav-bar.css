@@ -1,0 +1,49 @@
+.nav {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  /*padding 때문에 width 100%일 때 아이콘이 짤림 padding 좌우 0 ul에 margin 줬는데 이게 더 나은듯   */
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+
+.nav__ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+  color: #2e363e;
+}
+
+.nav__notification {
+  background-color: tomato;
+  width: 28px;
+  height: 28px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  /*그냥 크기 지정하면 안 먹힘 span태그라서 display속성 줘야함  */
+}
+
+.nav__ellipsisTopCircle {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  left: 30px;
+}
+.friends-header {
+  display: flex;
+}
