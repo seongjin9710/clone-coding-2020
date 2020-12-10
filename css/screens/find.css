@@ -1,0 +1,15 @@
+.cog {
+  position: relative;
+}
+
+.cogTopCircle {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 25px;
+}
+
+.find-icons {
+}

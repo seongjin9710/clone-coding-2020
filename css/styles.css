@@ -8,8 +8,18 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
 
-@import "loginForm.css";
+/*해당페이지에서만 쓸 css  */
+@import "screens/friends.css";
+@import "screens/loginForm.css";
+@import "screens/find.css";
+
 body {
+  color: #2e363e;
   font-family: "Open Sans", sans-serif;
+}
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
