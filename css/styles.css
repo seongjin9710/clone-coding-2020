@@ -10,11 +10,13 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/icon-row.css";
 
 /*해당페이지에서만 쓸 css  */
 @import "screens/friends.css";
 @import "screens/loginForm.css";
 @import "screens/find.css";
+@import "screens/more.css";
 
 body {
   color: #2e363e;
